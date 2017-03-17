@@ -22,5 +22,5 @@ blog:
 # steemd connection
 steem:
   # Steem Node to retreive data
-  # host: 'http://ws.golos.io' for Golos (russian fork of Steem)
+  # host: 'http://node.golos.ws' for Golos (russian fork of Steem)
   host: 'http://node.steem.ws'
