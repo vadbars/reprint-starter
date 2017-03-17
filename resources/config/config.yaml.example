@@ -1,11 +1,11 @@
 # reprint config
 reprint:
-  # Choose the locale to localize content for
+  # Choose the locale to localize content for: en, fr, ru etc.
   locale: 'en'
 
 # blog config
 blog:
-  # Choose a theme by name
+  # Choose a theme by name: `bootstrap3-default` or 'foundation6-default'.  
   theme: 'develop'
   title: 'reprint'
   subtitle: 'blockchain powered blog engine'
@@ -16,10 +16,11 @@ blog:
       'greymass':
         - post
         - reblog
-    tags:
+    tags: # delete all tags for all posts display
       - greymass
 
 # steemd connection
 steem:
   # Steem Node to retreive data
+  # host: 'http://ws.golos.io' for Golos (russian fork of Steem)
   host: 'http://node.steem.ws'
